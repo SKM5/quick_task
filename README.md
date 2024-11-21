@@ -25,7 +25,7 @@ QuickTask is a Flutter-based task management app designed to help users organize
     ├── ios/  
     ├── lib/  
     │   ├── models/       # Data models for tasks and users  
-    │   ├── services/     # Back4App integration and business logic  
+    │   ├── services/     # Back4App integration and database support  
     │   ├── screens/      # UI screens (Home, Login, etc.)  
     │   ├── main.dart     # App entry point  
     ├── test/             # Unit and widget tests  

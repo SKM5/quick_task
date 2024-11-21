@@ -1,0 +1,36 @@
+<variant
+    name="release"
+    package="com.example.quick_task"
+    minSdkVersion="21"
+    targetSdkVersion="34"
+    shrinking="true"
+    mergedManifest="C:\Users\SKM9\AndroidStudioProjects\quick_task\build\app\intermediates\merged_manifest\release\AndroidManifest.xml"
+    manifestMergeReport="C:\Users\SKM9\AndroidStudioProjects\quick_task\build\app\outputs\logs\manifest-merger-release-report.txt"
+    proguardFiles="C:\Users\SKM9\AndroidStudioProjects\quick_task\build\app\intermediates\default_proguard_files\global\proguard-android.txt-8.1.4;C:\dev\flutter\packages\flutter_tools\gradle\flutter_proguard_rules.pro;proguard-rules.pro"
+    partialResultsDir="C:\Users\SKM9\AndroidStudioProjects\quick_task\build\app\intermediates\lint_vital_partial_results\release\out">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifests="src\main\AndroidManifest.xml"
+        javaDirectories="src\main\java;src\release\java;src\main\kotlin;src\release\kotlin"
+        resDirectories="src\main\res;src\release\res"
+        assetsDirectories="src\main\assets;src\release\assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <manifestPlaceholders>
+    <placeholder
+        name="applicationName"
+        value="android.app.Application" />
+  </manifestPlaceholders>
+  <mainArtifact
+      classOutputs="C:\Users\SKM9\AndroidStudioProjects\quick_task\build\app\intermediates\javac\release\classes;C:\Users\SKM9\AndroidStudioProjects\quick_task\build\app\tmp\kotlin-classes\release;C:\Users\SKM9\AndroidStudioProjects\quick_task\build\app\kotlinToolingMetadata;C:\Users\SKM9\AndroidStudioProjects\quick_task\build\app\intermediates\compile_and_runtime_not_namespaced_r_class_jar\release\R.jar"
+      applicationId="com.example.quick_task"
+      generatedSourceFolders="C:\Users\SKM9\AndroidStudioProjects\quick_task\build\app\generated\ap_generated_sources\release\out"
+      generatedResourceFolders="C:\Users\SKM9\AndroidStudioProjects\quick_task\build\app\generated\res\resValues\release"
+      desugaredMethodsFiles="C:\Users\SKM9\.gradle\caches\transforms-3\dda3da8d2a85ad493f7a35c5c2b9e2e7\transformed\D8BackportedDesugaredMethods.txt">
+  </mainArtifact>
+</variant>

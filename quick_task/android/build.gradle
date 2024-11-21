@@ -1,0 +1,49 @@
+/*allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.buildDir = "../build"
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(":app")
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}*/
+
+buildscript {
+    repositories {
+        google()  // Ensure Google repository is included for dependencies
+        mavenCentral()  // Ensure Maven Central is included
+    }
+}
+
+allprojects {
+    repositories {
+        google()  // Ensure Google repository is included
+        mavenCentral()  // Ensure Maven Central is included
+        // Add any additional repositories if necessary
+    }
+}
+
+rootProject.buildDir = "../build"
+
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+
+subprojects {
+    project.evaluationDependsOn(":app")
+}
+
+// Register the "clean" task to delete build directories
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}
+

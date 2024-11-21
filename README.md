@@ -1,7 +1,4 @@
-# quick_task
-<<<<<<< HEAD
-
-A new Flutter project.
+Cross Platform Application Development Quick Task Assignment
 
 # QuickTask
 
@@ -43,5 +40,4 @@ QuickTask is a Flutter-based task management app designed to help users organize
    cd quick_task  
 
 =======
-Cross Platform Application Development Quick Task Assignment
->>>>>>> 5c46474d05bd616bb0912479eda14d1273155a74
+

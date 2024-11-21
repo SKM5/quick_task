@@ -36,7 +36,7 @@ QuickTask is a Flutter-based task management app designed to help users organize
 
 ## Clone the repository:
    ```bash  
-   git clone https://github.com/skm5/quick_task.git  
+   git clone https://github.com/SKM5/quick_task.git  
    cd quick_task
    ```
 ## Install Dependencies:
